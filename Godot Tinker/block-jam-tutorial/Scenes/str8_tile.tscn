@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=3 uid="uid://b0jvg1mlhv4j0"]
+
+[ext_resource type="Script" uid="uid://3ybdc271d0tu" path="res://Scripts/tiles.gd" id="1_bf5t5"]
+[ext_resource type="Texture2D" uid="uid://dnq5r0pfdg68f" path="res://Art/Tiles/Boff.png" id="2_s4hkw"]
+[ext_resource type="Texture2D" uid="uid://beumn62icgdd" path="res://Art/Tiles/Bon.png" id="3_d8xg0"]
+
+[node name="str8_tile" type="Node2D"]
+script = ExtResource("1_bf5t5")
+shape = "str8"
+
+[node name="Str8Off" type="Sprite2D" parent="."]
+texture = ExtResource("2_s4hkw")
+
+[node name="Str8On" type="Sprite2D" parent="."]
+texture = ExtResource("3_d8xg0")
